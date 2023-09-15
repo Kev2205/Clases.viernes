@@ -1,0 +1,40 @@
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mooli&family=Oswald:wght@200;300;400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* selector de etiqueta */
+h1{
+    font-family: 'Oswald', serif;
+}
+/* selector por id */
+#word_one{
+    font-size: 60px;
+    color: rgba(199, 83, 5, 0.781);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#list_options{
+    border: 10px solid red;
+    margin:  10px;
+    border-radius: 15px;
+}
+/* selector por clase */
+.word_group{
+    background-color: rgb(120, 139, 139);
+    color: blue;
+    margin-top: 10px;
+}
+/* selector por atributo */´
+[disabled] {
+    background-color: aqua;
+}
+/* pseudo clases */
+.word_group:hover{
+    background-color: yellow;
+    padding: 6px;
+}
