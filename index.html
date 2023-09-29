@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
 </head>
-    <h1><center>MUNDIAL DE RUGBY XV 2023    </center></h1>
 <body>
-    <div>
-        <ul>
-            <!-- sisisisi -->
-            <li> <a href="html/tablas.html"><h2>IR A TABLAS</h2></a></li>
-            <li><a href="html/form.html"><h2>IR A FORM</h2></a></li>
-            <li><a href="html/texto.html"><H2>IRA TEXTO</H2></a></li>
-            <li><a href="html/sematicas.html"><H2>IR A SEMANTICA</H2></a></li>
-            <li><a href="html/Agrupacion.html"><H2>IR A AGRUPACION</H2></a></li>
-            <li><a href="html/multimedia.html"><h2>IR A MULTIMEDIA</h2></a></li>
-            <li><a href="html/estilos.html"><h2>IR A ESTILOS</h2></a></li>
-            <li><a href="html/flexbox.html"><h2>IR A FLEXBOX</h2></a></li>
-            
-        </ul>
+    <div class="brackground"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+                <img src="/multimedia/ICONS/Astronauta.jpg" width="400" alt="" class="login">
+                <h1>INICIAR SESION</h1>
+            </div>
+            <div class="text_field">
+                <label for="email">email</label>
+                <input type="email" id="email" aria-label="Email" placeholder="INGRESE SU EMAIL" required>
+                <img src="/multimedia/ICONS/Email.png" width="20px" alt="Email Icon" title="Email Icon">
+           
+            </div>
+            <div class="text_field">
+                <label for="password">password</label>
+                <input type="password" id="password" aria-label="password" placeholder="INGRESE SU Contraseña" required>
+                <img src="/multimedia/ICONS/password.svg" width="20px" alt="password Icon" title="password Icon">
+           
+            </div>
+            <div class="my_form_actions">
+                <div class="my_form_row">
+                    <span>¿olvidaste tu Contraseña?</span>
+                    <a href="#" title="Recuperar Contraseña">Recuperar Contraseña</a>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Crear cuenta">Crear Cuenta</a>
+
+                </div>
+            </div>
+        </form>
     </div>
-    <img src="/multimedia/world.png" alt="WORLD" width="1300" height="500">
 
 
 </body>
